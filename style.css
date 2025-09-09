@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    padding-block: 8px;
+    background-color: black; 
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+input{
+    padding: 8px;
+    border-radius: 10px;
+}
+button{
+    padding: 8px;
+    border-radius: 10px;
+}
+.imagens{
+    display: columns;
+    columns: 3;
+}
+img{
+    width: 30vw;
+    height: 30vh;
+    padding-block: 10px;
+    
+}
